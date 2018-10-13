@@ -10,8 +10,6 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
 
-volatile bool on = false;
-
 ISR (TIMER0_OVF_vect) {
     // will be triggered every interrupt cycle
 }
